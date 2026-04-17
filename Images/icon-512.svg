@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="140%" y2="140%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Wifi centered at (256,256), scaled up proportionally -->
+  <g transform="translate(256,256)">
+    <circle cx="0" cy="80" r="26" fill="white"/>
+    <path d="M -66 40 A 76 76 0 0 1 66 40" fill="none" stroke="white" stroke-width="23" stroke-linecap="round"/>
+    <path d="M -122 0 A 138 138 0 0 1 122 0" fill="none" stroke="white" stroke-width="23" stroke-linecap="round" opacity="0.6"/>
+    <path d="M -178 -40 A 200 200 0 0 1 178 -40" fill="none" stroke="white" stroke-width="23" stroke-linecap="round" opacity="0.25"/>
+  </g>
+</svg>
