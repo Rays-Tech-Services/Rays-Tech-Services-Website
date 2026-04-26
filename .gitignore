@@ -26,4 +26,4 @@ yarn-error.log*
 
 # Project specific ignores
 OLD/
-sync-mobile.sh
+INSTRUCTIONS.md
